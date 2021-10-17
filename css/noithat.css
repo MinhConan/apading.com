@@ -1,0 +1,244 @@
+
+/* BANNER */
+
+.part_option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.part_option .box_search {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.box_search .box_noithat {
+    height: 100%;
+}
+
+.box_noithat select {
+    height: 100%;
+    padding: 0 5px;
+    border: 1px solid #656363;
+}
+
+.box_search .part_search {
+    display: flex;
+    height: 100%;
+    border: 1px solid #656363;
+    border-left: none;
+}
+
+.box_search .part_search input {
+    height: 100%;
+    border: 1px solid #656363;
+    border: none;
+}
+
+.box_search .part_search input::placeholder {
+    font-size: 14px;
+}
+
+.box_search .part_search button {
+    width: 80px;
+    height: 100%;
+    font-size: 16px;
+    background-color: #6c73f6;
+    border: none;
+    color: white;
+}
+
+.part_option .list_option {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #656363;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ebebeb;
+    margin-right: 20px !important;
+}
+
+.one_option .name_option {
+    cursor: pointer;
+}
+
+.one_option .name_option:hover .one_option_content {
+    display: block !important;
+}
+
+.one_option .one_option_content {
+    background-color: #ebebeb;
+}
+
+.one_option_content a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.banner_noithat {
+    height: 700px;
+    background-image: url(../img/banner_5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.banner_noithat .space {
+    margin-top: 400px;
+}
+
+.space a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner_noithat .list_thing_1 {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.list_thing_1 .one_thing {
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid #b7b7b7;
+}
+
+.one_thing .image {
+    transform: scale(0.7);
+}
+
+
+/*END BANNER */
+
+
+/* CONTENT */
+
+.part_thing {
+    margin-top: 80px;
+}
+
+.part_thing .title-new {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.list_thing_card .one_card {
+    text-align: center;
+}
+
+.one_card .name_com {
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 45%;
+    border-bottom: 1px solid black;
+}
+
+.one_card .name_thing {
+    margin: 5px 0;
+}
+
+.one_card .price_thing .ml-2 {
+    color: #5c5c5a;
+}
+
+.title-normal {
+    background-color: #f9deba;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title-high {
+    background-color: #e3baf3;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title-royal {
+    background-color: #c9bcd7;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+/*END CONTENT */
+
+
+/* FOOTER */
+
+.noithat .footer_up {
+    background-image: unset;
+    border-top: 1px solid #b7b7b7;
+    padding-top: 80px;
+    margin: 80px 0 120px 0;
+}
+
+.noithat .footer_up a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 0;
+}
+
+.noithat .footer_up .zone {
+    margin-top: unset;
+    color: black;
+    font-weight: 600;
+    padding-right: 80px;
+}
+
+.youtube_infor .title_text {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.noithat .app .text {
+    font-size: 16px;
+    margin: 50px 0 20px 0;
+}
+
+.noithat .email .text {
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.noithat .email .input {
+    width: 400px;
+}
+
+.noithat .copyright {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/*END FOOTER */

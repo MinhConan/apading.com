@@ -1,0 +1,96 @@
+.signup {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.signup__left {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/background_signup.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.signup-content {
+  width: 423px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  height: 100vh;
+  background-image: url(../img/background_login_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.signup-content .logo-com {
+  width: 50px;
+  margin-top: 27px;
+}
+
+.signup-content .name-title {
+  margin-top: 30px;
+  color: #4b4b4a;
+}
+
+.name-title .name-com {
+  font-size: 23px;
+  text-decoration: underline;
+  letter-spacing: 4px;
+  margin-right: 2px;
+}
+
+.name-title .member {
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 8px;
+}
+
+.signup-content input {
+  width: 230px;
+  border: 1px solid;
+}
+
+.signup-content label {
+  display: block;
+  color: #646464;
+  margin-top: 5px;
+}
+
+.signup-content button {
+  display: block;
+  margin: auto;
+  border: unset;
+  margin-top: 25px;
+  background: rgb(76 126 184 / 97%);
+  color: #e7eff9;
+  padding: 5px 69px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.signup-content .des {
+  width: 310px;
+  margin: auto;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.signup-content .question {
+  margin-top: 140px;
+}
+
+.signup__right {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/background_signup_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

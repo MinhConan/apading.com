@@ -1,0 +1,70 @@
+.furniture .lSSlideOuter{
+    position: relative;
+}
+
+.furniture .lSSlideOuter .lSPager.lSPager{
+    margin: 10px !important;
+    padding: 0;
+    text-align: center;
+    z-index: 8;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.furniture .lSSlideOuter .lSPager.lSpg > li a{
+    background-color: white;
+}
+
+.furniture .lSSlideOuter .lSPager.lSpg > li:hover a,
+.furniture .lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color:#428bca !important;
+}
+
+.accessory .lSAction > .lSNext{
+    background-image: url('../img/arrow-next.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1 !important;
+}
+.accessory .lSAction > .lSPrev{
+    background-image: url('../img/arrow-pre.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1 !important;
+}
+
+/* end furniture */
+
+.slide-news .lSAction{
+    display: none !important;
+}
+
+.slide-news .lSSlideOuter{
+    position: relative;
+}
+
+.slide-news .lSSlideOuter .lSPager.lSPager{
+    margin: 10px !important;
+    padding: 0;
+    text-align: center;
+    z-index: 8;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slide-news .lSSlideOuter .lSPager.lSpg > li a {
+    height: 5px;
+    width: 20px;
+    border-radius: unset;
+}
+
+.slide-news .lSSlideOuter .lSPager.lSpg > li:hover a,
+.slide-news .lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color:white !important;
+}

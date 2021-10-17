@@ -1,0 +1,31 @@
+
+
+
+.promotion_detail {
+	background-image: url(../img/banner_1.png);
+	background-position: inherit;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+
+.title-detail-list{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.title-detail-list img{
+    width: 50px;
+}
+
+.title-detail-list h2{
+    font-weight: 100;
+    padding-left: 15px;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    color: #584d40;
+}
